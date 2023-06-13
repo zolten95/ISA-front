@@ -1,0 +1,356 @@
+.game-history-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 200px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
+  max-width: 1300px;
+  width: 100%;
+  background-color: #ddd;
+}
+
+.firstpage-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 200px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
+  max-width: 1000px;
+  width: 100%;
+  background-color: #ddd;
+}
+.divLabel1 {
+  margin-top: 10px;
+  background-color: #d2cdcd;
+  width: 1096px;
+  margin-left: 310px;
+  height: 30px;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
+  border-bottom: black;
+  border-style: dotted;
+}
+
+
+.label1 {
+  margin-left: 150px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.label2 {
+  margin-left: 250px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+.dates-container {
+  margin-right: 0px;
+  margin-bottom: 0px;
+  display: grid;
+  grid-template-columns: 300px 500px 600px; /* Podjela na dvije kolone */
+  justify-content: center;
+  margin-left: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
+  width: fit-content;
+  background-color: #ddd;
+}
+
+.game-history-table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.dates-table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+}
+
+
+
+.dates-table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 500px;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.reservations-table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 600px;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+
+.game-history-table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.game-history-table2 {
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.complaintsAdmin {
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.game-history-table th,
+.game-history-table td {
+  width: fit-content;
+
+  border-radius: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.complaintsAdmin th,
+.complaintsAdmin td {
+  width: fit-content;
+
+  border-radius: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.game-history-table tr.green-row td {
+  background-color: rgb(130, 227, 130);
+  color: black;
+  
+}
+
+.game-history-table2 th,
+.game-history-table2 td {
+  width: fit-content;
+
+  border-radius: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.game-history-table th:first-child,
+.game-history-table td:first-child {
+  width: 20px; /* Postavite željenu širinu za prvu kolonu */
+}
+
+.game-history-table th:nth-child(2),
+.game-history-table td:nth-child(2) {
+  width: 100px; /* Postavite željenu širinu za drugu kolonu */
+}
+
+.game-history-table th:nth-child(3),
+.game-history-table td:nth-child(3) {
+  width: 120px; /* Postavite željenu širinu za treću kolonu */
+}
+
+.game-history-table2 th:first-child,
+.game-history-table2 td:first-child {
+  width: 100px; /* Postavite željenu širinu za prvu kolonu */
+}
+
+
+
+
+.dates-table th,
+.dates-table td {
+  width: fit-content;
+  white-space: nowrap;
+  border-radius: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.reservations-table th,
+.reservations-table td {
+  width: fit-content;
+  white-space: nowrap;
+  border-radius: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.game-history-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.game-history-table2 th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.complaintsAdmin th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.dates-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.reservations-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.game-history-table tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+.complaintsAdmin tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+.game-history-table2 tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+.dates-table tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+.reservations-table tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+.game-history-buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.game-history-buttons button {
+  margin: 0 5px;
+}
+
+.game-history-container button {
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.game-history-container button:hover {
+  background-color: #3e8e41;
+}
+
+.reservations-buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.reservations-buttons button {
+  margin: 0 5px;
+}
+
+.reservations-container button {
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.reservations-container button:hover {
+  background-color: #3e8e41;
+}
+
+.button-accept {
+  width: 90px;
+  margin-left: 7px;
+  height: 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3ae937;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button-decline {
+  width: 90px;
+  margin-left: 7px;
+  height: 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: #bf2424;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button-delete {
+  width: fit-content;
+  height: fit-content;
+  border: none;
+  border-radius: 5px;
+  background-color: #bf2424;
+  font-weight: normal;
+  color: #fff;
+  cursor: pointer;
+}
+
+.ignore-parent-styles {
+  all: unset; 
+  width: fit-content  !important;
+  height: fit-content;
+  border: none;
+  border-radius: 5px;
+  background-color: #bf2424;
+  font-weight: bold  !important;
+  font-size: large  !important;
+  color: #fff;
+  cursor: pointer;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+}

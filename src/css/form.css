@@ -1,0 +1,351 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #bcd1dc;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  background-color: #bcd1dc;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  background-color: #bcd1dc;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.questionaire-form {
+  display: flex;
+  width: 80vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background-color: #bcd1dc;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.profile-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 78vh;
+  background-color: #bcd1dc;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.input2-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.input-group button{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(214, 228, 193);
+  border-color: #1f1e1e;
+  border-radius: 5px;
+  border-style: solid;
+  justify-content: center;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-group label {
+  margin-right: 10px;
+  font-weight: bold;
+  width: 100px;
+}
+
+.upitnik-labela {
+  font-weight: bold;
+  width: 80%;
+  border-right: black;
+  border-style: dotted;
+}
+
+.odgovor {
+  font-weight: bold;
+  font-weight: bold;
+  border-right: black;
+  border-top: black;
+  border-bottom: black;
+  border-style: dotted;
+  border-left: none;
+}
+
+.input-label {
+  margin-right: 2px;
+  font-weight: bold;
+}
+
+.input-group input {
+  flex: 1;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+
+.input-group select {
+  flex: 1;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.button-group button {
+  margin-right: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button-search {
+  width: 90px;
+  margin-left: 7px;
+  height: 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button-refresh {
+  width: 85px;
+  margin-left: 0px;
+  height: 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: #797979;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button-group button[type="button"] {
+  background-color: #6c757d;
+}
+
+.login-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #add8e6;
+}
+
+.registration-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #add8e6;
+}
+
+.registration-form-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  background-color: #add8e6;
+  margin-top: 30px;
+}
+
+
+.login-form-wrapper {
+  background-color: #2e92a6;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.3);
+}
+
+.registration-form-wrapper {
+  background-color: #2e92a6;
+  height: fit-content;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.3);
+}
+
+.divLabel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 5px solid black;
+  height: auto;
+  width: 100%;
+}
+
+
+
+.boldLabel {
+  border-top: black;
+  border-width: 5px;
+  font-size: medium;
+  font-weight: bold;
+
+}
+
+.pagination{
+  margin-left: 45.5%;
+  margin-top: 10px;
+}
+
+.pagination button{
+  background-color: rgb(82, 211, 82);
+  border-radius: 30px;
+  width: 50px;
+}
+
+.sort-input {
+  margin-left: 5px;
+  margin-top: 11px;
+  height: 30px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #333;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.sort-input:focus {
+  border-color: #007bff;
+}
+
+.sort-input option {
+  background-color: #fff;
+  color: #333;
+}
+
+footer {
+  position: fixed;
+  left: 25%;
+  right: 25%;
+  bottom: 0;
+  width: 50%;
+  background-color: rgba(128, 128, 128, 0.5);
+  color: white;
+  text-align: center;
+}
+
+.p-center {
+  position: fixed;
+  margin-left: 35%;
+  margin-top: 2%;
+  box-sizing: border-box;
+  border: 3px solid #000000;
+  background-color: #dddddd;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+.cancelButton {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(219, 60, 60);
+  border-radius: 10px;
+  border-style: 2px solid;
+  border-color: #000000;
+}
+
+.reserveButton {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(72, 229, 45);
+  border-radius: 10px;
+  border-style: 2px solid;
+  border-color: #000000;
+}
+
+.select2 {
+  
+  margin-right: 10px;
+  flex: 1;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+
+.zalbaTextDiv {
+  width: 99%;
+  height: 100%;
+}
+
+.zalbaText{
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.zalbadugme{
+  width: fit-content;
+  background-color: lawngreen;
+  border-radius: 7px;
+  border: none;
+  box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
+  font-weight: normal;
+  cursor: pointer;
+  grid-column: 1;
+  height: 25px;
+}
+
+.glavniZalba{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 89% 11%;
+}
+
+.zalba {
+  grid-column: 0;
+  width: 100%;
+}
